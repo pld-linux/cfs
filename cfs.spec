@@ -49,7 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 	BINDIR=$RPM_BUILD_ROOT%{_bindir} \
 	ETCDIR=$RPM_BUILD_ROOT%{_sbindir}
 
-gzip -9nf README.esm README.history README.install 
+gzip -9nf README.esm README.history README.install
 
 %clean
 rm -rf $RPM_BUILD_ROOT
