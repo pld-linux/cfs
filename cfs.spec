@@ -6,8 +6,6 @@ Release:	1
 License:	distributable
 # Original source is unknown
 Group:		Applications/File
-Group(de):	Applikationen/Datei
-Group(pl):	Aplikacje/Pliki
 Source0:	ftp://ftp.zedz.net/pub/crypto/disk/cfs/%{name}_%{version}.orig.tar.gz
 Patch0:		http://non-us.debian.org/debian-non-US/dists/potato/non-US/main/source/%{name}_1.3.3-8.diff.gz
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
