@@ -9,7 +9,7 @@ Group:		Applications/File
 Source0:	ftp://ftp.zedz.net/pub/crypto/disk/cfs/%{name}_%{version}.orig.tar.gz
 # Source0-md5:	cb4c5c107b77a50c25628f6655aae378
 Patch0:		http://non-us.debian.org/debian-non-US/dists/potato/non-US/main/source/%{name}_1.3.3-8.diff.gz
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 CFS pushes encryption services into the Unix(tm) file system. It
