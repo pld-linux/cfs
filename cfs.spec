@@ -29,7 +29,7 @@ file backup, work in a normal manner and without knowledge of the key.
 %description -l pl
 CFS dodaje us³ugi szyfruj±ce do systemu plików Unixów. Obs³uguje on
 bezpieczny zapis informacji poprzez standardowy interfejs systemu
-plików dostêpny w Unixach. U¿ytkownicy przypisuj± kryptograficzne
+plików dostêpny w Uniksach. U¿ytkownicy przypisuj± kryptograficzne
 klucze tym katalogom, które chc± zabezpieczyæ. Pliki w tych katalogach
 (jak równie¿ ich nazwy) s± prze¼roczy¶cie szyfrowane i deszyfrowane z
 podanym kluczem; dane czystym tekstem nigdy nie s± zapisywane na dysku
