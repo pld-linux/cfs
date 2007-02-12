@@ -1,5 +1,5 @@
 Summary:	Cryptographic Filesystem
-Summary(pl):	Kryptograficzny system plików
+Summary(pl.UTF-8):   Kryptograficzny system plikÃ³w
 Name:		cfs
 Version:	1.3.3
 Release:	2
@@ -26,14 +26,14 @@ system for its underlying storage without modification, including
 remote file servers such as NFS. System management functions, such as
 file backup, work in a normal manner and without knowledge of the key.
 
-%description -l pl
-CFS dodaje us³ugi szyfruj±ce do systemu plików Unixów. Obs³uguje on
+%description -l pl.UTF-8
+CFS dodaje usÅ‚ugi szyfrujÄ…ce do systemu plikÃ³w UnixÃ³w. ObsÅ‚uguje on
 bezpieczny zapis informacji poprzez standardowy interfejs systemu
-plików dostêpny w Uniksach. U¿ytkownicy przypisuj± kryptograficzne
-klucze tym katalogom, które chc± zabezpieczyæ. Pliki w tych katalogach
-(jak równie¿ ich nazwy) s± przezroczy¶cie szyfrowane i deszyfrowane z
-podanym kluczem; dane czystym tekstem nigdy nie s± zapisywane na dysku
-czy przesy³ane przez sieæ do zdalnego serwera.
+plikÃ³w dostÄ™pny w Uniksach. UÅ¼ytkownicy przypisujÄ… kryptograficzne
+klucze tym katalogom, ktÃ³re chcÄ… zabezpieczyÄ‡. Pliki w tych katalogach
+(jak rÃ³wnieÅ¼ ich nazwy) sÄ… przezroczyÅ›cie szyfrowane i deszyfrowane z
+podanym kluczem; dane czystym tekstem nigdy nie sÄ… zapisywane na dysku
+czy przesyÅ‚ane przez sieÄ‡ do zdalnego serwera.
 
 %prep
 %setup -q -n %{name}-%{version}.orig
