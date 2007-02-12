@@ -1,5 +1,5 @@
 Summary:	Cryptographic Filesystem
-Summary(pl.UTF-8):   Kryptograficzny system plików
+Summary(pl.UTF-8):	Kryptograficzny system plików
 Name:		cfs
 Version:	1.3.3
 Release:	2
