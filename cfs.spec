@@ -6,9 +6,10 @@ Release:	2
 License:	distributable
 # Original source is unknown
 Group:		Applications/File
-Source0:	ftp://ftp.zedz.net/pub/crypto/disk/cfs/%{name}_%{version}.orig.tar.gz
-# Source0-md5:	cb4c5c107b77a50c25628f6655aae378
-Patch0:		http://non-us.debian.org/debian-non-US/dists/potato/non-US/main/source/%{name}_1.3.3-8.diff.gz
+Source0:	ftp://ftp.zedz.net/pub/crypto/disk/cfs/%{name}-%{version}.tar.gz
+# Source0-md5:	44accb7e102a78150dd35e9fa36d7f5f
+Patch0:		http://archive.debian.org/debian-non-US/dists/potato/non-US/main/source/%{name}_1.3.3-8.1.diff.gz
+# Patch0-md5:	7bb4cbf19e8c195f7302a025897fe44d
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -36,7 +37,7 @@ podanym kluczem; dane czystym tekstem nigdy nie są zapisywane na dysku
 czy przesyłane przez sieć do zdalnego serwera.
 
 %prep
-%setup -q -n %{name}-%{version}.orig
+%setup -q
 
 %build
 %{__make} cfs esm \
